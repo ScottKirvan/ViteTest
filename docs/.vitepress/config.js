@@ -1,5 +1,5 @@
 export default {
-  base: '/Cortex/',
+  base: '/ViteTest/',
   title: 'Cortex',
   description: 'A Claude Code agent inside your Obsidian vault',
 

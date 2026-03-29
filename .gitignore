@@ -1,26 +1,38 @@
-# Node modules
+# ===== Node =====
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
 
-# Build output
+# ===== VitePress =====
+# Build output (wherever your docs root is)
+docs/.vitepress/dist/
 .vitepress/dist/
 
-# Local environment files (if any)
+# Dev server cache
+docs/.vitepress/cache/
+.vitepress/cache/
+
+# ===== Environment =====
 .env
 .env.local
 .env.*.local
 
-# IDE or editor files (optional, if applicable)
-.vscode/
-*.code-workspace
-
-# OS-specific files
+# ===== OS =====
 .DS_Store
 Thumbs.db
+Desktop.ini
 
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# ===== Editors =====
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*.swo
+*~
 
-.vitepress/cache/
-docs/.vitepress/
+# ===== Claude Code =====
+.claude/
